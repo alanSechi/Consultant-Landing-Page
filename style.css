@@ -79,11 +79,6 @@
             line-height: 27px;
             color: #717784;
         }
-        50% {
-            font-size: 20px;
-            line-height: 29px;
-            color: #000000;
-        }
         100% {
             font-size: 22px;
             line-height: 35px;
@@ -95,7 +90,6 @@
     .navbar-a:hover {
         animation-name: example;
         animation-duration: 0.55s;
-        animation-delay: 0.2s;
     }
     
     .header-nav-navbar-home {
@@ -143,6 +137,63 @@
         height: 27px;
         left: 67px;
         top: 16px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+    
+    .header-texts {
+        position: relative;
+        width: 751px;
+        height: 223px;
+        left: 245px;
+        top: 312px;
+    }
+    
+    .header-texts-title {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        font-family: DM Serif Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 56px;
+        line-height: 100%;
+        color: #696A86;
+    }
+    
+    .header-texts-body {
+        position: relative;
+        top: 30px;
+        left: 0px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: left;
+        /* or 150% */
+        color: #696A86;
+    }
+    
+    .header-get-started-button {
+        position: relative;
+        width: 234px;
+        height: 60px;
+        left: 245px;
+        top: 346px;
+        background: #9B9BCA;
+        border-radius: 10px;
+        border: none;
+    }
+    
+    .header-get-started-button-text {
+        position: absolute;
+        left: 66px;
+        top: 17px;
         font-family: Poppins;
         font-style: normal;
         font-weight: 600;
