@@ -80,16 +80,17 @@ header {
         color: #717784;
     }
     100% {
-        font-size: 22px;
-        line-height: 35px;
+        font-size: 20px;
+        line-height: 30px;
         color: #000000;
         text-shadow: #9B9BCA;
+        animation-play-state: paused;
     }
 }
 
 .navbar-a:hover {
-    animation-name: example;
-    animation-duration: 0.55s;
+    animation: example 0.40s;
+    animation-iteration-count: unset;
 }
 
 .header-nav-navbar-home {
