@@ -14,20 +14,21 @@ accordionItemHeaders.forEach(accordionItemHeader => {
 });
 
 
+
 function accordionMenu(question) {
-    let keyframes = [
-        { opacity: "0" },
-        { height: "auto" },
-        { height: "auto" },
-        { opacity: "1" },
-    ];
+    // let keyframes = [
+    //     { opacity: "0" },
+    //     { height: "auto" },
+    //     { height: "auto" },
+    //     { opacity: "1" },
+    // ];
     let answer = question.currentTarget.nextElementSibling;
-    question.currentTarget.classList.toggle("expanded");
-    if (answer.classList.contains("expanded") && !answer.style.maxHeight) {
-        answer.classList.remove("expanded");
+    question.currentTarget.classList.toggle("active");
+    if (answer.classList.contains("active") && !answer.style.maxHeight) {
+        answer.classList.remove("active");
         answer.style.maxHeight = answer.scrollHeight + "px";
     } else {
-        answer.classList.add("expanded");
+        answer.classList.add("active");
         answer.style.maxHeight = null;
     }
 }
@@ -67,5 +68,5 @@ function loadMore() {
         else questions[1].appendChild(newBox);
         newQuest.addEventListener("click", accordionMenu);
     }
-    loadMoreBtn.style.display = "none";
+
 }
