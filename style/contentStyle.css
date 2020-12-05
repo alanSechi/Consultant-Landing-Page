@@ -328,7 +328,7 @@
    .accordion-item-body {
        max-height: 0;
        overflow: hidden;
-       transition: max-height 0.2s ease-out;
+       transition: max-height 0.5s ease-out;
        background: #F5F5FF;
        box-shadow: 0px 25px 59px rgba(191, 191, 236, 0.72);
        border-radius: 10px;
@@ -507,7 +507,7 @@
        width: 660px;
        height: 111px;
        left: 830px;
-       top: 1103px;
+       top: 1017px;
        margin-top: 212px;
        z-index: 1;
    }
@@ -520,42 +520,42 @@
        position: relative;
        z-index: 2;
        left: -830px;
-       top: -495px;
+       top: -409px;
    }
    
    .slider-small-dots-one {
        position: relative;
-       top: -835px;
+       top: -749px;
        left: -305px;
    }
    
    .slider-small-dots-two {
        position: relative;
-       top: -840px;
+       top: -754px;
        left: -204px;
    }
    
    .slider-small-dots-three {
        position: relative;
-       top: -855px;
+       top: -769px;
        left: -100px;
    }
    
    .slider-small-dots-four {
        position: relative;
-       top: -1245px;
+       top: -1159px;
        left: -305px;
    }
    
    .slider-small-dots-five {
        position: relative;
-       top: -1345px;
+       top: -1259px;
        left: -250px;
    }
    
    .slider-small-dots-six {
        position: relative;
-       top: -1495px;
+       top: -1409px;
        left: -155px;
    }
    
@@ -564,10 +564,109 @@
        width: 488px;
        height: 375px;
        left: 85px;
-       top: -1240px;
+       top: -1196px;
        background: #FFFFFF;
        box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
        border-radius: 10px;
+   }
+   
+   .slider-text-body {
+       position: absolute;
+       width: 359.62px;
+       height: 180px;
+       left: 37px;
+       top: 60px;
+       font-family: Poppins;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 18px;
+       line-height: 30px;
+       color: #9D9D9D;
+   }
+   
+   .slider-profile-name {
+       position: absolute;
+       width: 179.81px;
+       height: 40px;
+       left: 184px;
+       top: 268px;
+       font-family: Poppins;
+       font-style: normal;
+       font-weight: 600;
+       font-size: 18px;
+       line-height: 30px;
+       display: flex;
+       align-items: center;
+       color: #626780;
+   }
+   
+   .slider-rating-stars {
+       position: absolute;
+       width: 34px;
+       height: 30px;
+       left: 278px;
+       top: 312px;
+       font-family: Poppins;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 12px;
+       line-height: 30px;
+       /* identical to box height, or 250% */
+       display: flex;
+       align-items: center;
+       /* gray */
+       color: #9D9D9D;
+   }
+   
+   .slider-stars {
+       position: absolute;
+       width: 84px;
+       height: 12px;
+       left: 186px;
+       top: 320px;
+       display: flex;
+       flex-direction: row;
+   }
+   
+   .star-two,
+   .star-three,
+   .star-four,
+   .star-five {
+       margin-left: 5px;
+   }
+   
+   .slider-rating {
+       position: absolute;
+       width: 108px;
+       height: 30px;
+       left: 184px;
+       top: 294px;
+       font-family: Poppins;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 15px;
+       line-height: 30px;
+       /* identical to box height, or 187% */
+       display: flex;
+       align-items: center;
+       /* gray */
+       color: #9D9D9D;
+   }
+   
+   .slider-profile-photo {
+       position: absolute;
+       width: 98px;
+       height: 98px;
+       left: 37px;
+       top: 244px;
+   }
+   
+   .slider-button-right {
+       position: absolute;
+       width: 56px;
+       height: 56px;
+       left: 419px;
+       top: 160px;
    }
    
    .login-head {
@@ -599,7 +698,144 @@
        border-radius: 10px;
    }
    
-   footer {
-       height: 490px;
+   .username-input {
+       position: absolute;
+       width: 400px;
+       height: 60px;
+       left: 173px;
+       top: 155px;
+       background: #FFFFFF;
+       border: 2px solid #9595C9;
+       box-sizing: border-box;
+       box-shadow: 0px 20px 40px rgba(149, 149, 201, 0.2);
+       border-radius: 10px;
+   }
+   
+   .username-input[placeholder] {
+       position: absolute;
+       /*left: 213px;
+       top: 166px;*/
+       font-family: Poppins;
+       font-style: normal;
+       font-weight: 500;
+       font-size: 18px;
+       line-height: 40px;
+       padding-left: 40px;
+       /* or 222% */
+       /* Blcak green */
+       color: #626780;
+   }
+   
+   .username-label {
+       position: absolute;
+       width: 95px;
+       height: 38px;
+       left: 173px;
+       top: 107px;
+       font-family: Poppins;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 16px;
+       line-height: 40px;
+       /* or 250% */
+       /* Blcak green */
+       color: #626780;
+   }
+   
+   .password-input {
+       position: absolute;
+       width: 400px;
+       height: 60px;
+       left: 173px;
+       top: 293px;
+       background: #FFFFFF;
+       border: 1px solid #9595C9;
+       box-sizing: border-box;
+       border-radius: 5px;
+   }
+   
+   .password-label {
+       position: absolute;
+       width: 189px;
+       height: 38px;
+       left: 173px;
+       top: 245px;
+       font-family: Poppins;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 16px;
+       line-height: 40px;
+       /* or 250% */
+       /* Blcak green */
+       color: #626780;
+   }
+   /* Style the submit button */
+   
+   .submit-button {
+       position: absolute;
+       width: 220px;
+       height: 60px;
+       left: 173px;
+       top: 383px;
+       background: #9595C9;
+       border-radius: 5px;
+       border: none;
+   }
+   
+   .registration {
+       position: absolute;
+       width: 337px;
+       height: 40px;
+       left: 173px;
+       top: 473px;
+       font-family: Poppins;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 18px;
+       line-height: 40px;
+       /* identical to box height, or 222% */
+       color: #626780;
+   }
+   
+   .registration a {
+       color: #F01F35;
+   }
+   /* The message box is shown when the user clicks on the password field */
+   
+   #message {
+       display: none;
+       background: #f1f1f1;
+       color: #000;
+       position: absolute;
+       width: 169px;
+       height: 99px;
+       left: 404px;
+       top: 362px;
+       font-family: Poppins;
+       font-style: normal;
+       font-weight: normal;
+       border-radius: 5px;
+       text-align: center;
+   }
+   
+   #message p {
+       font-size: 10px;
+   }
+   /* Add a green text color and a checkmark when the requirements are right */
+   
+   .valid {
+       color: green;
+   }
+   
+   .valid:before {
+       position: relative;
+   }
+   /* Add a red text color and an "x" icon when the requirements are wrong */
+   
+   .invalid {
+       color: red;
+   }
+   
+   .invalid:before {
        position: relative;
    }

@@ -17,9 +17,11 @@
     <style>
         @import "style/headerStyle.css";
         @import "style/contentStyle.css";
+        @import "style/footerStyle.css";
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@300;700&display=swap');
     </style>
     <link rel="stylesheet" type="text/css" href="style/style.css">
-    <script src="script.js"></script>
+
 </head>
 
 <body>
@@ -307,61 +309,104 @@
             <div class="slider-small-dots-five"><img src="images/sliderSmallDotTwo.png" alt=""></div>
             <div class="slider-small-dots-six"><img src="images/sliderSmallDotThree.png" alt=""></div>
 
-            <div class="slider"></div>
+            <div class="slider">
+                <div class="slider-item">
+                    <div class="slider-text-body">From most barricade or traffic control companies located in the phone book. They employ certified Traffic Control Supervisors (TCS) who can generate and certify the traffic control plan. </div>
+                    <div class="slider-profile-name">Simon Sandberg</div>
+                    <div class="slider-rating">Overall rating</div>
+                    <div class="slider-rating-stars">5 star</div>
+                    <div class="slider-stars">
+                        <img class="star-one" src="images/sliderStar.svg" alt="">
+                        <img class="star-two" src="images/sliderStar.svg" alt="">
+                        <img class="star-three" src="images/sliderStar.svg" alt="">
+                        <img class="star-four" src="images/sliderStar.svg" alt="">
+                        <img class="star-five" src="images/sliderStar.svg" alt="">
+                    </div>
+                    <div class="slider-profile-photo">
+                        <img src="images/sliderProfilePhoto.png" alt="">
+                    </div>
+                    <div class="slider-button-right">
+                        <img src="images/sliderButtonRight.png" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="login">
             <div class="login-head">Please join with us & get all kind of benifit</div>
-            <div class="login-body"></div>
+            <div class="login-body">
+                <div class="container">
+                    <form action="">
+                        <label class="username-label" for="usrname">Name</label>
+                        <input class="username-input" type="text" id="usrname" name="usrname" required placeholder="Hendrik Larsson">
+
+                        <label class="password-label" for="psw">Password</label>
+                        <input class="password-input" type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required placeholder="Your Password">
+
+                        <input class="submit-button" type="submit" value="Submit">
+                    </form>
+                </div>
+                <div class="registration">Don’t have an account ? <a>Sign up here</a></div>
+                <div id="message">
+                    <p id="letter" class="invalid">A <b>lowercase</b> letter,</p>
+                    <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter,</p>
+                    <p id="number" class="invalid">A <b>number,</b></p>
+                    <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+                </div>
+            </div>
         </div>
     </main>
     <footer style="background-image: url(images/Ellipse\ 22.svg);">
-        <div>
-            <div>
-                <div></div>
-                <div>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+        <div class="footer-navbar">
+            <div class="footer-navbar-learn-more">
+                <div class="footer-navbar-head">Learn More</div>
+                <div class="footer-navbar-body">
+                    <span class="footer-navbar-item">Sell Fast</span>
+                    <br><span class="footer-navbar-item">Buy Now</span>
+                    <br><span class="footer-navbar-item">Membership</span>
+                    <br><span class="footer-navbar-item">Banner Ads</span>
+                    <br><span class="footer-navbar-item">Promotions</span>
                 </div>
             </div>
-            <div>
-                <div></div>
-                <div>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+            <div class="footer-navbar-help-support">
+                <div class="footer-navbar-head">Help & Support</div>
+                <div class="footer-navbar-body">
+                    <span class="footer-navbar-item">FAQ</span>
+                    <br><span class="footer-navbar-item">Stay Safe</span>
+                    <br><span class="footer-navbar-item">Contact us</span>
                 </div>
             </div>
-            <div>
-                <div></div>
-                <div>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+            <div class="footer-navbar-social">
+                <div class="footer-navbar-head">Social</div>
+                <div class="footer-navbar-body">
+                    <span class="footer-navbar-item">Blog</span>
+                    <br><span class="footer-navbar-item">Facebook</span>
+                    <br><span class="footer-navbar-item">Twitter</span>
+                    <br><span class="footer-navbar-item">Youtube</span>
                 </div>
             </div>
-            <div>
-                <div></div>
-                <div>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+            <div class="footer-navbar-about-us">
+                <div class="footer-navbar-head">About us</div>
+                <div class="footer-navbar-body">
+                    <span class="footer-navbar-item">About us</span>
+                    <br><span class="footer-navbar-item">Career</span>
+                    <br><span class="footer-navbar-item">Terms and Conditions</span>
+                    <br><span class="footer-navbar-item">Privacy Policy</span>
+                    <br><span class="footer-navbar-item">Sitemap</span>
                 </div>
             </div>
         </div>
-        <div></div>
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
+        <div class="footer-copyright">Copyright @ 2019</div>
+        <div class="footer-social-buttons">
+            <div><img src="images/facebook.svg" alt=""></div>
+            <div class="margin"><img src="images/twitter.svg" alt=""></div>
+            <div><img src="images/instagram.svg" alt=""></div>
         </div>
-        <div></div>
+        <div class="footer-logo">
+            <div><img src="images/footerLogo.svg" alt="" style="margin-top: 4px;"></div>
+            <div style="margin-left:8px;">Dreammaker</div>
+        </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 
