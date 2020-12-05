@@ -37,15 +37,15 @@ function loadMore() {
     const qList = [
         "How much does a commercial traffic permit cost for goods?",
         "Where to look for a traffic permit?",
-        "How is the sample for a professional traffic permit booked?",
-        "Are there differences between a traffic permit and a professional traffic permit?",
+        "How to check the traffic condition?",
+        "When is a professional traffic permit needed?",
     ];
 
     const aList = [
-        "Traffic permits are a requirement for conducting professional traffic.",
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
-        "Commercial traffic permits cost from 50$ to 70$, depends of using cases",
-        "With a professional traffic permit you can afford to take all goods you want!",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
     ];
 
     const questions = document.querySelectorAll(".accordion-side");
@@ -68,5 +68,5 @@ function loadMore() {
         else questions[1].appendChild(newBox);
         newQuest.addEventListener("click", accordionMenu);
     }
-
+    document.getElementById("loadMoreButton").style.display = "none";
 }
