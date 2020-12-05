@@ -6,7 +6,8 @@ Dreammaker Consultant it's a consultant website about traffic permit, transports
 Build With: HTML5, CSS3 and Vanilla Javascript
 
 Acquired skills: accordions, sliders, form validation.
-How i made it
+
+How i made it:
 
 Using Trello for organize tasks, i have split the website in 9 specified sections:
 
