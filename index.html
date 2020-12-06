@@ -5,7 +5,7 @@
     <title>Dreammaker Consultant, we provide great services</title>
     <meta name="description" content="Do you need a great consultant company?Then you are in the right place, web design, health and study, packaging and content writing are our specialities.">
     <meta name=”robots” content="index, follow">
-    <meta name="viewport" content="width=360px, initial-scale=1.0">
+    <meta name="viewport" content="width=375px, initial-scale=1.0">
     <meta property="og:title" content="Dreammaker consultant. We provide great service.">
     <meta property="og:site_name" content="Sports">
     <meta property="og:url" content="https://competent-hypatia-a823c0.netlify.app/">
@@ -18,7 +18,8 @@
         @import "style/headerStyle.css";
         @import "style/contentStyle.css";
         @import "style/footerStyle.css";
-        @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@300;700&display=swap');
+        @import "style/mobileStyle.css";
+        @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=PT+Serif&family=Poppins:wght@300;400;600&family=Roboto&family=Rubik:wght@300;700&display=swap');
     </style>
     <link rel="stylesheet" type="text/css" href="style/style.css">
 
@@ -118,10 +119,10 @@
                 <div class="question-answer-title">Your Questions and Answers is always ready:</div>
 
                 <div class="question-answer-dot-background">
-                    <img src="images/backgroundDotQuestionAndAnswer.png" alt="" style="width: 779px;">
+                    <img id="accordionBackgroundDot" src="images/backgroundDotQuestionAndAnswer.png" alt="">
                 </div>
                 <div class="question-answer-man">
-                    <img src="images/manQuestionAndAnswer.png" alt="" style="width: 531px;">
+                    <img id="accordionBackgroundMan" src="images/manQuestionAndAnswer.png" alt="">
                 </div>
 
                 <div class="accordion">
@@ -278,7 +279,7 @@
 
         <div class="best-feature-in-world-boxes">
             <div class="box one">
-                <div class="box-image"><img src="images/boxImageOne.png" alt=""></div>
+                <div class="box-image"><img id="box-image" src="images/boxImageOne.png" alt=""></div>
                 <div class="box-text-head">Customer</div>
                 <div class="box-text-body">The occupational traffic permit is one
                     <br>things in the company How do you
@@ -287,7 +288,7 @@
                 <div class="button butOne"><span class="buttText">Refer anyone</span></div>
             </div>
             <div class="box two">
-                <div class="box-image"><img src="images/boxImagetwo.png" alt=""></div>
+                <div class="box-image"><img id="box-image" src="images/boxImagetwo.png" alt=""></div>
                 <div class="box-text-head">Provider</div>
                 <div class="box-text-body">The occupational traffic permit is one
                     <br>things in the company How do you
@@ -301,7 +302,7 @@
             <div class="best-feature-in-world-head">Best Feature in the world </div>
             <div class="best-feature-in-world-body">Here you get the best featured in the world and you can do the best thing when carrying out freight transport. In fact, it is a</div>
 
-            <div class="slider-girl-image"><img src="images/sliderGirlImage.png" alt=""></div>
+            <div class="slider-girl-image"><img id="sliderGirlImage" src="images/sliderGirlImage.png" alt=""></div>
             <div class="slider-small-dots-one"><img src="images/sliderSmallDotOne.png" alt=""></div>
             <div class="slider-small-dots-two"><img src="images/sliderSmallDotTwo.png" alt=""></div>
             <div class="slider-small-dots-three"><img src="images/sliderSmallDotThree.png" alt=""></div>
@@ -362,7 +363,7 @@
                         <img src="images/sliderProfilePhotoThree.webp" alt="" style="width: 98px; top: 40px; left: 40px;">
                     </div>
                     <div class="slider-button-right" onclick="plusSlides(1)">
-                        <img src="images/sliderButtonRight.png" alt="">
+                        <img id="slider" src="images/sliderButtonRight.png" alt="">
                     </div>
                 </div>
             </div>

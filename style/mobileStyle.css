@@ -1,0 +1,1232 @@
+@media only screen and (max-device-width: 375px) {
+    /*
+================================================================
+
+header css
+
+================================================================
+*/
+    /*
+================================================================
+
+Start of logo
+
+================================================================
+*/
+    .header-nav-logo-group {
+        position: absolute;
+        width: 72px;
+        height: 72px;
+        left: 30px;
+        top: 22px;
+    }
+    .header-nav-logo-image {
+        position: absolute;
+        width: 72px;
+        height: 72px;
+    }
+    .header-nav-logo-text {
+        position: absolute;
+        width: 126px;
+        height: 26px;
+        left: 93px;
+        top: 24px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 26px;
+        color: #505050;
+        display: none;
+    }
+    /*
+================================================================
+
+End of logo
+
+================================================================
+*/
+    /*
+================================================================
+
+Start of navbar
+
+================================================================
+*/
+    @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@400;500&display=swap');
+    header {
+        background-image: url("../images/sfondoHeader.svg");
+        position: relative;
+        width: 480px;
+        height: 737px;
+        display: flex;
+    }
+    .header-nav-navbar {
+        display: none;
+    }
+    .header-nav-group {
+        width: 100%;
+        height: 116px;
+        position: relative;
+        background-color: rgba(196, 196, 196, 0.1);
+    }
+    .header-nav-contact-us-button {
+        position: absolute;
+        width: 160px;
+        height: 50px;
+        left: 180px;
+        top: 31px;
+        background: #9B9BCA;
+        border-radius: 10px;
+        border: none;
+    }
+    .header-nav-contact-us-button:hover {
+        background: #ffffff;
+        border: 2px solid #9B9BCA;
+        color: #9B9BCA;
+    }
+    .header-nav-contact-us-button-text {
+        position: absolute;
+        width: 101px;
+        height: 27px;
+        left: 35px;
+        top: 10px;
+        text-decoration: none;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #ffffff;
+    }
+    /*
+============================================
+
+end of navbar
+
+=============================================
+
+================================================
+
+Start of the style of the text under the navbar
+
+================================================
+*/
+    .header-texts {
+        position: absolute;
+        width: 300px;
+        height: auto;
+        left: 55px;
+        top: 165px;
+    }
+    .header-texts-title {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        font-family: DM Serif Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 100%;
+        color: #696A86;
+        margin: 0;
+    }
+    .header-texts-body {
+        position: relative;
+        top: 20px;
+        left: 0px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: left;
+        color: #696A86;
+    }
+    .header-get-started-button {
+        position: absolute;
+        width: 234px;
+        height: 60px;
+        left: 55px;
+        top: 645px;
+        background: #9B9BCA;
+        border-radius: 10px;
+        border: none;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+    .header-get-started-button-text {
+        position: absolute;
+        left: 66px;
+        top: 17px;
+    }
+    .header-get-started-button:hover {
+        background: #ffffff;
+        border: 2px solid #9B9BCA;
+        color: #9B9BCA;
+    }
+    .header-get-started-button-text:hover {
+        color: #9B9BCA;
+    }
+    /*
+================================================
+
+End of the style of the text under the navbar
+
+================================================
+*/
+    /*
+================================================================
+
+Start of content
+
+================================================================
+*/
+    .content {
+        position: relative;
+        width: 480px;
+        background: #FFFFFF;
+    }
+    /*
+================================================================
+
+Start of great service
+
+================================================================
+*/
+    .content-box-great-service {
+        position: absolute;
+        width: 300px;
+        height: 143px;
+        left: 40px;
+        top: 70px;
+        color: #626780;
+    }
+    .content-box-great-service-title {
+        position: relative;
+        top: -17px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 39px;
+        text-align: center;
+    }
+    .content-box-great-service-body {
+        position: relative;
+        display: block;
+        height: auto;
+        width: 300px;
+        top: -17px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+    }
+    /*
+================================================================
+
+end of great service
+
+================================================================
+*/
+    /*
+================================================================
+
+Start of service boxes
+
+================================================================
+*/
+    .services-boxes {
+        position: relative;
+        width: 350px;
+        height: auto;
+        top: 362px;
+        left: 55px;
+        display: flex;
+        flex-direction: column;
+    }
+    .box-one {
+        position: absolute;
+        width: 261px;
+        height: 260px;
+    }
+    .box-two {
+        position: absolute;
+        margin-top: 31px;
+        margin-left: 0px;
+        left: 0px;
+        top: 300px;
+    }
+    .box-three {
+        position: absolute;
+        margin-top: 31px;
+        margin-left: 0px;
+        left: 0px;
+        top: 600px;
+    }
+    .box-four {
+        position: absolute;
+        margin-top: 31px;
+        margin-left: 0px;
+        left: 0px;
+        top: 900px;
+    }
+    .services-boxes-icon {
+        position: absolute;
+        left: 97px;
+        top: 25px;
+    }
+    .services-boxes-head {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 109px;
+        text-align: center;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 40px;
+        color: #626780;
+    }
+    .services-boxes-body {
+        position: relative;
+        display: flex;
+        width: 254px;
+        height: auto;
+        top: 161px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #626780;
+    }
+    @keyframes services-boxes-animation {
+        0% {
+            border: 1px solid #9D9D9D;
+            box-sizing: content-box;
+            border-radius: 5px;
+        }
+        100% {
+            border: 1px solid #9D9D9D;
+            border-bottom: 7px solid #9D9D9D;
+            border-radius: 5px;
+        }
+    }
+    .box-hover:hover {
+        animation-name: services-boxes-animation;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+    }
+    .box-hover {
+        position: relative;
+        width: 264px;
+        height: 250px;
+        top: -65px;
+    }
+    /*
+================================================================
+
+end of service boxes
+
+================================================================
+*/
+    /*
+================================================================
+
+Start of people here
+
+================================================================
+*/
+    .people-here {
+        position: relative;
+        width: 300px;
+        top: 1460px;
+    }
+    .people-here-texts {
+        position: absolute;
+        width: 300px;
+        height: 175px;
+        left: 20px;
+        top: 105px;
+    }
+    .people-here-head {
+        position: absolute;
+        width: 350px;
+        height: 39px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 39px;
+        color: #626780;
+    }
+    .people-here-body {
+        position: absolute;
+        width: 350px;
+        height: auto;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        color: #9D9D9D;
+        top: 55px;
+    }
+    .people-here-image {
+        position: absolute;
+        left: 10px;
+        top: 320px;
+        width: 350px;
+    }
+    /*
+================================================================
+
+end of people here
+
+================================================================
+*/
+    /*
+================================================================
+
+Start of video
+
+================================================================
+*/
+    .video-head {
+        position: relative;
+        width: 350px;
+        height: 126px;
+        left: 30px;
+        top: 1500px;
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 140%;
+        color: #402B2B;
+        display: block;
+    }
+    .video-body {
+        position: absolute;
+        width: 100%;
+        height: 315px;
+        left: 0px;
+        top: 2215px;
+        text-align: center;
+    }
+    .video-body-gradient {
+        position: absolute;
+        width: 100%;
+        height: 235px;
+        left: 0px;
+        top: 2256px;
+        text-align: center;
+        background: rgba(56, 63, 79, 0.3);
+        z-index: 2;
+    }
+    /*
+================================================================
+
+end of video
+
+================================================================
+*/
+    /*
+================================================================
+
+Start of question and answer
+
+================================================================
+*/
+    .question-and-answer-section {
+        position: relative;
+        top: 1650px;
+        overflow: hidden;
+        width: 375px;
+        height: auto;
+    }
+    .question-answer-dot-background {
+        position: absolute;
+        left: 22px;
+        top: 420px;
+    }
+    #accordionBackgroundDot,
+    #accordionBackgroundMan {
+        width: 350px;
+        height: auto;
+    }
+    .question-answer-man {
+        position: absolute;
+        width: 350px;
+        left: 80px;
+        top: 445px;
+    }
+    .question-answer-title {
+        text-align: left;
+        margin: 138px 0;
+        position: relative;
+        top: 118px;
+        width: 350px;
+        height: 142px;
+        left: 35px;
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 140%;
+        color: #402B2B;
+    }
+    /*
+================================================================
+
+end of question and answer
+
+================================================================
+*/
+    /*
+================================================================
+
+Start of accordion
+
+================================================================
+*/
+    .accordion {
+        position: relative;
+        width: 350px;
+        height: 2400px;
+        left: 15px;
+    }
+    .left {
+        position: absolute;
+        width: 350px;
+        top: 398px;
+    }
+    .right {
+        position: absolute;
+        width: 350px;
+        float: none;
+        top: 1325px;
+        left: 0px;
+    }
+    .accordion-item {
+        background-color: #fff;
+        color: #402b2b;
+        margin: 1rem 0;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 10px #E0E0E0;
+        border-radius: 23px;
+        z-index: 2;
+        position: relative;
+    }
+    .accordion-item-header {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 35px;
+        min-height: 40px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        cursor: pointer;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+        color: #402B2B;
+    }
+    .accordion-item-header::after {
+        content: url("arrowRight.svg");
+        font-size: 24px;
+        position: absolute;
+        right: 37px;
+    }
+    .accordion-item-header.active::after {
+        content: url("arrowDown.svg");
+    }
+    .accordion-item-body {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-out;
+        background: #F5F5FF;
+        box-shadow: 0px 25px 59px rgba(191, 191, 236, 0.72);
+        border-radius: 10px;
+    }
+    .accordion-item-body-content {
+        width: 350px;
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 60px;
+        padding-left: 35px;
+        padding-right: 35px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        color: #402B2B;
+    }
+    /*
+================================================================
+
+end of accordion
+
+================================================================
+*/
+    /*
+================================================================
+
+Start of loadmore
+
+================================================================
+*/
+    #loadmore {
+        margin: 0px 0px 0px 0px;
+        display: block;
+        border: none;
+        font-size: 18px;
+        cursor: pointer;
+        color: #fff;
+        width: 250px;
+        height: 90px;
+        background: #9B9BCA;
+        border-radius: 10px;
+        text-transform: uppercase;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 30px;
+        position: relative;
+    }
+    #loadmore:hover {
+        background: #fff;
+        color: #9B9BCA;
+        border: 2px solid #9B9BCA;
+    }
+    .buttonLoadmore {
+        position: relative;
+        top: 1616px;
+        margin-top: 101px;
+        left: 70px;
+    }
+    /*
+================================================================
+
+end of loadmore
+
+================================================================
+*/
+    /*
+================================================================
+
+Start of best feature in world
+
+================================================================
+*/
+    .best-feature-in-world {
+        position: relative;
+        width: 350px;
+        height: 111px;
+        left: 16px;
+        top: 1515px;
+        margin-top: 167px;
+    }
+    .best-feature-in-world-head {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 39px;
+        color: #626780;
+        text-align: center;
+    }
+    .best-feature-in-world-body {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        color: #626780;
+        margin-top: 12px;
+    }
+    /*
+================================================================
+
+end of best feature in world
+
+================================================================
+*/
+    /*
+================================================================
+
+Start of best feature in world boxes
+
+================================================================
+*/
+    .best-feature-in-world-boxes {
+        position: relative;
+        width: 350px;
+        height: 1030px;
+        top: 1640px;
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        background-image: url("../images/sliderBigDot.png");
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+    .box {
+        position: relative;
+        left: 10px;
+        width: 350px;
+        height: 410px;
+        background: #FFFFFF;
+        box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        border: 1px solid #d2d2d2;
+    }
+    .two {
+        margin-left: 0px;
+        margin-top: 70px;
+    }
+    .box-image {
+        width: 339px;
+        height: 149px;
+        background: url(.jpg);
+        border-radius: 10px;
+        margin: 23px 0px 20px 17px;
+    }
+    #box-image {
+        width: 318px;
+    }
+    .box-text-head {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 100%;
+        color: #000000;
+        text-align: center;
+    }
+    .box-text-body {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 28px;
+        text-align: center;
+        color: #626780;
+        margin: 22px 48px 0 48px;
+    }
+    .button {
+        position: absolute;
+        left: 60px;
+        top: 378px;
+    }
+    .butOne {
+        width: 234px;
+        height: 60px;
+        background: #9595C9;
+        border-radius: 10px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .butOne:hover {
+        color: #9595C9;
+        border: 2px solid #9595C9;
+        background: #ffffff;
+    }
+    .buttTwo {
+        width: 234px;
+        height: 60px;
+        background: #F01F35;
+        border-radius: 10px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .buttTwo:hover {
+        color: #F01F35;
+        border: 2px solid #F01F35;
+        background: #ffffff;
+    }
+    .buttText {
+        position: relative;
+        top: 17px;
+    }
+    /*
+================================================================
+
+end of best feauture in world boxes
+
+================================================================
+*/
+    /*
+================================================================
+
+Start of slider
+
+================================================================
+*/
+    .best-feature-in-world-slider {
+        position: relative;
+        width: 660px;
+        height: 111px;
+        left: 830px;
+        top: 1017px;
+        margin-top: 212px;
+        z-index: 1;
+        display: none;
+    }
+    .slider-big-dot {
+        display: none;
+    }
+    .slider-girl-image {
+        position: relative;
+        z-index: 2;
+        left: -810px;
+        top: 166px;
+    }
+    #sliderGirlImage {
+        width: 350px;
+    }
+    .slider-small-dots-one {
+        position: relative;
+        top: -749px;
+        left: -305px;
+        display: none;
+    }
+    .slider-small-dots-two {
+        position: relative;
+        top: -754px;
+        left: -204px;
+        display: none;
+    }
+    .slider-small-dots-three {
+        position: relative;
+        top: -769px;
+        left: -100px;
+        display: none;
+    }
+    .slider-small-dots-four {
+        position: relative;
+        top: -1159px;
+        left: -305px;
+        display: none;
+    }
+    .slider-small-dots-five {
+        position: relative;
+        top: -1259px;
+        left: -250px;
+        display: none;
+    }
+    .slider-small-dots-six {
+        position: relative;
+        top: -1409px;
+        left: -155px;
+        display: none;
+    }
+    .slider {
+        position: relative;
+        width: 350px;
+        height: 375px;
+        left: -810px;
+        top: 210px;
+        background: #FFFFFF;
+        box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+        border-radius: 10px;
+    }
+    .sliderItem {
+        width: 350px;
+        height: 375px;
+    }
+    .slider-text-body {
+        position: absolute;
+        width: 275px;
+        height: 180px;
+        left: 37px;
+        top: 10px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+        color: #9D9D9D;
+    }
+    .slider-profile-name {
+        position: absolute;
+        width: 179.81px;
+        height: 40px;
+        left: 160px;
+        top: 268px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        color: #626780;
+    }
+    .slider-rating-stars {
+        position: absolute;
+        width: 34px;
+        height: 30px;
+        left: 250px;
+        top: 312px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 30px;
+        /* identical to box height, or 250% */
+        display: flex;
+        align-items: center;
+        /* gray */
+        color: #9D9D9D;
+    }
+    .slider-stars {
+        position: absolute;
+        width: 84px;
+        height: 12px;
+        left: 160px;
+        top: 320px;
+        display: flex;
+        flex-direction: row;
+    }
+    .star-two,
+    .star-three,
+    .star-four,
+    .star-five {
+        margin-left: 5px;
+    }
+    .slider-rating {
+        position: absolute;
+        width: 108px;
+        height: 30px;
+        left: 160px;
+        top: 294px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 30px;
+        /* identical to box height, or 187% */
+        display: flex;
+        align-items: center;
+        /* gray */
+        color: #9D9D9D;
+    }
+    .slider-profile-photo {
+        position: absolute;
+        width: 98px;
+        height: 98px;
+        left: 30px;
+        top: 244px;
+    }
+    .slider-button-right {
+        position: absolute;
+        width: 56px;
+        height: 56px;
+        left: 250px;
+        top: 200px;
+    }
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.0s;
+    }
+    @keyframes fade {
+        from {
+            opacity: .2
+        }
+        to {
+            opacity: 1
+        }
+    }
+    /*
+================================================================
+
+end of slider
+
+================================================================
+*/
+    /*
+================================================================
+
+Start of login
+
+================================================================
+*/
+    .login-head {
+        position: absolute;
+        width: 335px;
+        height: 275px;
+        left: 15px;
+        top: 6568px;
+        margin-top: 112px;
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 140%;
+        color: #402B2B;
+    }
+    .login-body {
+        position: absolute;
+        width: 350px;
+        height: 566px;
+        left: 10px;
+        top: 6855px;
+        margin-top: 12px;
+        margin-bottom: 132px;
+        background: #FFFFFF;
+        box-shadow: 0px 20px 40px rgba(149, 149, 201, 0.4);
+        border-radius: 10px;
+    }
+    .username-input {
+        position: absolute;
+        width: 300px;
+        height: 60px;
+        left: 25px;
+        top: 90px;
+        background: #FFFFFF;
+        border: 2px solid #9595C9;
+        box-sizing: border-box;
+        box-shadow: 0px 20px 40px rgba(149, 149, 201, 0.2);
+        border-radius: 10px;
+    }
+    .username-label-placeholder {
+        position: absolute;
+        left: 0px;
+        top: 100px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 40px;
+        padding-left: 40px;
+        color: #626780;
+        z-index: 2;
+    }
+    .username-label {
+        position: absolute;
+        width: 95px;
+        height: 38px;
+        left: 25px;
+        top: 35px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 40px;
+        color: #626780;
+    }
+    .password-input {
+        position: absolute;
+        width: 300px;
+        height: 60px;
+        left: 25px;
+        top: 250px;
+        background: #FFFFFF;
+        border: 1px solid #9595C9;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+    .password-label {
+        position: absolute;
+        width: 189px;
+        height: 38px;
+        left: 25px;
+        top: 190px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 40px;
+        color: #626780;
+    }
+    /* Style the submit button */
+    .password-label-placeholder {
+        position: absolute;
+        width: 244px;
+        height: 38px;
+        left: 40px;
+        top: 260px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 40px;
+        color: #9D9D9D;
+        z-index: 2;
+    }
+    .submit-button {
+        position: absolute;
+        width: 220px;
+        height: 60px;
+        left: 25px;
+        top: 360px;
+        background: #9595C9;
+        border-radius: 5px;
+        border: none;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .registration {
+        position: absolute;
+        width: 300px;
+        height: 40px;
+        left: 25px;
+        top: 440px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 40px;
+        color: #626780;
+    }
+    #message {
+        display: none;
+    }
+    /*
+================================================================
+
+end of login
+
+================================================================
+*/
+    /*
+================================================================
+
+Start of footer
+
+================================================================
+*/
+    footer {
+        height: 1000px;
+        position: relative;
+        background-position: center;
+        top: 150px;
+        background: #9B9BCA;
+    }
+    .footer-navbar {
+        position: absolute;
+        width: 350px;
+        height: auto;
+        left: 107px;
+        top: 100px;
+        font-family: Poppins;
+        font-style: normal;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-navbar-item {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #E6E6E6;
+    }
+    .footer-navbar-help-support,
+    .footer-navbar-social,
+    .footer-navbar-about-us {
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    .footer-navbar-head {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .footer-navbar-body {
+        margin-top: 12px;
+    }
+    .footer-copyright {
+        position: absolute;
+        width: 140px;
+        height: 40px;
+        left: 95px;
+        top: 940px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 30px;
+        /* or 187% */
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        margin-bottom: 34px;
+    }
+    .footer-social-buttons,
+    .footer-logo {
+        display: flex;
+        direction: row;
+    }
+    .footer-social-buttons {
+        position: absolute;
+        width: 170px;
+        height: 36px;
+        left: 70px;
+        top: 832px;
+    }
+    .margin {
+        margin: 0px 31px;
+    }
+    .footer-logo {
+        position: absolute;
+        width: 177px;
+        height: 34px;
+        left: 62px;
+        top: 900px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 26px;
+        /* identical to box height */
+        color: #FFFFFF;
+        align-items: center;
+    }
+    /*
+================================================================
+
+end of footer
+
+================================================================
+*/
+}

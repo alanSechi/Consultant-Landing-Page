@@ -4,29 +4,16 @@
 header css
 
 ================================================================
+*/
 
+
+/*
 ================================================================
 
-Start of navbar
+Start of logo
 
 ================================================================
 */
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@400;500&display=swap');
-header {
-    background-image: url("../images/sfondoHeader.svg");
-    position: relative;
-    width: 1600px;
-    height: 737px;
-    display: flex;
-}
-
-.header-nav-group {
-    width: 100%;
-    height: 116px;
-    position: relative;
-    background-color: rgba(196, 196, 196, 0.1);
-}
 
 .header-nav-logo-group {
     position: absolute;
@@ -54,6 +41,40 @@ header {
     font-size: 22px;
     line-height: 26px;
     color: #505050;
+}
+
+
+/*
+================================================================
+
+End of logo
+
+================================================================
+*/
+
+
+/*
+================================================================
+
+Start of navbar
+
+================================================================
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@400;500&display=swap');
+header {
+    background-image: url("../images/sfondoHeader.svg");
+    position: relative;
+    width: 1600px;
+    height: 737px;
+    display: flex;
+}
+
+.header-nav-group {
+    width: 100%;
+    height: 116px;
+    position: relative;
+    background-color: rgba(196, 196, 196, 0.1);
 }
 
 .header-nav-navbar {
@@ -148,6 +169,9 @@ header {
     height: 27px;
     left: 67px;
     top: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
 }
 
 
@@ -220,6 +244,11 @@ Start of the style of the text under the navbar
     position: absolute;
     left: 66px;
     top: 17px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
 }
 
 .header-get-started-button:hover {

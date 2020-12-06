@@ -2,6 +2,13 @@
        width: 1600px;
        height: 8633px;
    }
+   /*
+================================================================
+
+Start of content
+
+================================================================
+*/
    
    .content {
        position: relative;
@@ -9,6 +16,13 @@
        height: 7406px;
        background: #FFFFFF;
    }
+   /*
+================================================================
+
+Start of great service
+
+================================================================
+*/
    
    .content-box-great-service {
        position: absolute;
@@ -16,6 +30,7 @@
        height: 143px;
        left: 470px;
        top: 95px;
+       color: #626780;
    }
    
    .content-box-great-service-title {
@@ -27,7 +42,6 @@
        font-size: 26px;
        line-height: 39px;
        text-align: center;
-       color: #626780;
    }
    
    .content-box-great-service-body {
@@ -42,8 +56,21 @@
        font-size: 18px;
        line-height: 26px;
        text-align: center;
-       color: #626780;
    }
+   /*
+================================================================
+
+end of great service
+
+================================================================
+*/
+   /*
+================================================================
+
+Start of service boxes
+
+================================================================
+*/
    
    .services-boxes {
        position: relative;
@@ -145,6 +172,20 @@
        height: 250px;
        top: -65px;
    }
+   /*
+================================================================
+
+end of service boxes
+
+================================================================
+*/
+   /*
+================================================================
+
+Start of people here
+
+================================================================
+*/
    
    .people-here {
        position: relative;
@@ -190,6 +231,20 @@
        position: absolute;
        left: 778px;
    }
+   /*
+================================================================
+
+end of people here
+
+================================================================
+*/
+   /*
+================================================================
+
+Start of video
+
+================================================================
+*/
    
    .video-head {
        position: relative;
@@ -225,6 +280,20 @@
        background: rgba(56, 63, 79, 0.3);
        z-index: 2;
    }
+   /*
+================================================================
+
+end of video
+
+================================================================
+*/
+   /*
+================================================================
+
+Start of question and answer
+
+================================================================
+*/
    
    .question-and-answer-section {
        position: relative;
@@ -248,6 +317,14 @@
        top: 262px;
    }
    
+   #accordionBackgroundDot {
+       width: 779px;
+   }
+   
+   #accordionBackgroundMan {
+       width: 531px;
+   }
+   
    .question-answer-title {
        text-align: left;
        margin: 138px 0;
@@ -263,6 +340,20 @@
        line-height: 140%;
        color: #402B2B;
    }
+   /*
+================================================================
+
+end of question and answer
+
+================================================================
+*/
+   /*
+================================================================
+
+Start of accordion
+
+================================================================
+*/
    
    .accordion {
        position: relative;
@@ -350,6 +441,20 @@
        align-items: center;
        color: #402B2B;
    }
+   /*
+================================================================
+
+end of accordion
+
+================================================================
+*/
+   /*
+================================================================
+
+Start of loadmore
+
+================================================================
+*/
    
    #loadmore {
        margin: 101px 544px 66px 544px;
@@ -382,6 +487,20 @@
        top: 1060px;
        margin-top: 101px;
    }
+   /*
+================================================================
+
+end of loadmore
+
+================================================================
+*/
+   /*
+================================================================
+
+Start of best feature in world
+
+================================================================
+*/
    
    .best-feature-in-world {
        position: relative;
@@ -416,6 +535,20 @@
        color: #626780;
        margin-top: 12px;
    }
+   /*
+================================================================
+
+end of best feature in world
+
+================================================================
+*/
+   /*
+================================================================
+
+Start of best feature in world boxes
+
+================================================================
+*/
    
    .best-feature-in-world-boxes {
        position: relative;
@@ -527,6 +660,20 @@
        position: relative;
        top: 17px;
    }
+   /*
+================================================================
+
+end of best feauture in world boxes
+
+================================================================
+*/
+   /*
+================================================================
+
+Start of slider
+
+================================================================
+*/
    
    .best-feature-in-world-slider {
        position: relative;
@@ -713,6 +860,20 @@
            opacity: 1
        }
    }
+   /*
+================================================================
+
+end of slider
+
+================================================================
+*/
+   /*
+================================================================
+
+Start of login
+
+================================================================
+*/
    
    .login-head {
        position: absolute;
@@ -726,7 +887,6 @@
        font-weight: normal;
        font-size: 48px;
        line-height: 140%;
-       /* or 67px */
        color: #402B2B;
    }
    
@@ -766,8 +926,6 @@
        font-size: 18px;
        line-height: 40px;
        padding-left: 40px;
-       /* or 222% */
-       /* Blcak green */
        color: #626780;
        z-index: 2;
    }
@@ -783,8 +941,6 @@
        font-weight: normal;
        font-size: 16px;
        line-height: 40px;
-       /* or 250% */
-       /* Blcak green */
        color: #626780;
    }
    
@@ -811,8 +967,6 @@
        font-weight: normal;
        font-size: 16px;
        line-height: 40px;
-       /* or 250% */
-       /* Blcak green */
        color: #626780;
    }
    /* Style the submit button */
@@ -828,8 +982,6 @@
        font-weight: 300;
        font-size: 18px;
        line-height: 40px;
-       /* or 222% */
-       /* gray */
        color: #9D9D9D;
        z-index: 2;
    }
@@ -848,7 +1000,6 @@
        font-weight: bold;
        font-size: 16px;
        line-height: 19px;
-       /* identical to box height */
        display: flex;
        align-items: center;
        letter-spacing: 0.05em;
@@ -867,7 +1018,6 @@
        font-weight: normal;
        font-size: 18px;
        line-height: 40px;
-       /* identical to box height, or 222% */
        color: #626780;
    }
    
@@ -894,7 +1044,7 @@
    #message p {
        font-size: 10px;
    }
-   /* Add a green text color and a checkmark when the requirements are right */
+   /* Add a green text color when the requirements are right */
    
    .valid {
        color: green;
@@ -903,7 +1053,7 @@
    .valid:before {
        position: relative;
    }
-   /* Add a red text color and an "x" icon when the requirements are wrong */
+   /* Add a red text color when the requirements are wrong */
    
    .invalid {
        color: red;
@@ -912,3 +1062,10 @@
    .invalid:before {
        position: relative;
    }
+   /*
+================================================================
+
+end of login
+
+================================================================
+*/
