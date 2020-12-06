@@ -371,6 +371,12 @@
        position: relative;
    }
    
+   #loadmore:hover {
+       background: #fff;
+       color: #9B9BCA;
+       border: 2px solid #9B9BCA;
+   }
+   
    .buttonLoadmore {
        position: relative;
        top: 1060px;
@@ -493,7 +499,7 @@
    
    .butOne:hover {
        color: #9595C9;
-       border: 3px solid #9595C9;
+       border: 2px solid #9595C9;
        background: #ffffff;
    }
    
@@ -513,7 +519,7 @@
    
    .buttTwo:hover {
        color: #F01F35;
-       border: 3px solid #F01F35;
+       border: 2px solid #F01F35;
        background: #ffffff;
    }
    
