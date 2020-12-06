@@ -33,6 +33,9 @@ function accordionMenu(question) {
     }
 }
 
+
+
+
 function loadMore() {
     const qList = [
         "How much does a commercial traffic permit cost for goods?",
@@ -72,20 +75,54 @@ function loadMore() {
 }
 
 
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+
+}
+
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("sliderItem");
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+
+    slides[slideIndex - 1].style.display = "block";
+}
+
+
+
 var myInput = document.getElementById("psw");
+var myInputName = document.getElementById("usrname");
 var letter = document.getElementById("letter");
 var capital = document.getElementById("capital");
 var number = document.getElementById("number");
 var length = document.getElementById("length");
 
 // When the user clicks on the password field, show the message box
+myInputName.onfocus = function() {
+    document.getElementById("namePlaceholder").style.display = "none";
+}
+
 myInput.onfocus = function() {
     document.getElementById("message").style.display = "block";
+    document.getElementById("placeholder").style.display = "none";
 }
 
 // When the user clicks outside of the password field, hide the message box
 myInput.onblur = function() {
     document.getElementById("message").style.display = "none";
+
 }
 
 // When the user starts to type something inside the password field

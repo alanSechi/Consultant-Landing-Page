@@ -76,7 +76,7 @@ header {
 
 @keyframes example {
     0% {
-        color: #E9E9E9;
+        color: #9B9BCA;
     }
     100% {
         /*font-size: 20px;
@@ -129,6 +129,16 @@ header {
     border-radius: 10px;
     color: white;
     border: none;
+}
+
+.header-nav-contact-us-button:hover {
+    background: #ffffff;
+    border: 3px solid #9B9BCA;
+    color: #9B9BCA;
+}
+
+.header-nav-contact-us-button-text:hover {
+    color: #9B9BCA;
 }
 
 .header-nav-contact-us-button-text {
@@ -215,6 +225,16 @@ Start of the style of the text under the navbar
     font-size: 18px;
     line-height: 27px;
     color: #FFFFFF;
+}
+
+.header-get-started-button:hover {
+    background: #ffffff;
+    border: 3px solid #9B9BCA;
+    color: #9B9BCA;
+}
+
+.header-get-started-button-text:hover {
+    color: #9B9BCA;
 }
 
 

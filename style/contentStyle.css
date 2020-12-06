@@ -475,6 +475,12 @@
        position: absolute;
        left: 104px;
        top: 509px;
+   }
+   
+   .butOne {
+       width: 234px;
+       height: 60px;
+       background: #9595C9;
        border-radius: 10px;
        font-family: Poppins;
        font-style: normal;
@@ -485,16 +491,30 @@
        color: #FFFFFF;
    }
    
-   .butOne {
-       width: 234px;
-       height: 60px;
-       background: #9595C9;
+   .butOne:hover {
+       color: #9595C9;
+       border: 3px solid #9595C9;
+       background: #ffffff;
    }
    
    .buttTwo {
        width: 234px;
        height: 60px;
        background: #F01F35;
+       border-radius: 10px;
+       font-family: Poppins;
+       font-style: normal;
+       font-weight: 600;
+       font-size: 18px;
+       line-height: 27px;
+       text-align: center;
+       color: #FFFFFF;
+   }
+   
+   .buttTwo:hover {
+       color: #F01F35;
+       border: 3px solid #F01F35;
+       background: #ffffff;
    }
    
    .buttText {
@@ -568,6 +588,11 @@
        background: #FFFFFF;
        box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
        border-radius: 10px;
+   }
+   
+   .sliderItem {
+       width: 488px;
+       height: 375px;
    }
    
    .slider-text-body {
@@ -669,6 +694,20 @@
        top: 160px;
    }
    
+   .fade {
+       animation-name: fade;
+       animation-duration: 1.0s;
+   }
+   
+   @keyframes fade {
+       from {
+           opacity: .2
+       }
+       to {
+           opacity: 1
+       }
+   }
+   
    .login-head {
        position: absolute;
        width: 550px;
@@ -711,10 +750,10 @@
        border-radius: 10px;
    }
    
-   .username-input[placeholder] {
+   .username-label-placeholder {
        position: absolute;
-       /*left: 213px;
-       top: 166px;*/
+       left: 175px;
+       top: 166px;
        font-family: Poppins;
        font-style: normal;
        font-weight: 500;
@@ -724,6 +763,7 @@
        /* or 222% */
        /* Blcak green */
        color: #626780;
+       z-index: 2;
    }
    
    .username-label {
@@ -771,6 +811,23 @@
    }
    /* Style the submit button */
    
+   .password-label-placeholder {
+       position: absolute;
+       width: 244px;
+       height: 38px;
+       left: 213px;
+       top: 304px;
+       font-family: Rubik;
+       font-style: normal;
+       font-weight: 300;
+       font-size: 18px;
+       line-height: 40px;
+       /* or 222% */
+       /* gray */
+       color: #9D9D9D;
+       z-index: 2;
+   }
+   
    .submit-button {
        position: absolute;
        width: 220px;
@@ -780,6 +837,17 @@
        background: #9595C9;
        border-radius: 5px;
        border: none;
+       font-family: Rubik;
+       font-style: normal;
+       font-weight: bold;
+       font-size: 16px;
+       line-height: 19px;
+       /* identical to box height */
+       display: flex;
+       align-items: center;
+       letter-spacing: 0.05em;
+       text-transform: uppercase;
+       color: #FFFFFF;
    }
    
    .registration {
