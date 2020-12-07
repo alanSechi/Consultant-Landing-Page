@@ -1137,6 +1137,7 @@ Start of footer
 */
     footer {
         height: 1000px;
+        width: 460px;
         position: relative;
         background-position: center;
         top: 150px;
