@@ -1,4 +1,4 @@
-    @media only screen and (min-device-width: 480px) {
+    @media only screen and (min-device-width: 400px) {
         footer {
             height: 452px;
             position: relative;
