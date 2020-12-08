@@ -21,7 +21,6 @@ footer {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height */
     color: #E6E6E6;
 }
 
@@ -48,13 +47,12 @@ footer {
     width: 465px;
     height: 40px;
     left: 243px;
-    top: 410px;
+    top: 378px;
     font-family: Rubik;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
     line-height: 30px;
-    /* or 187% */
     display: flex;
     align-items: center;
     color: #FFFFFF;
@@ -72,7 +70,7 @@ footer {
     width: 170px;
     height: 36px;
     left: 885px;
-    top: 413px;
+    top: 380px;
 }
 
 .margin {
@@ -84,13 +82,12 @@ footer {
     width: 177px;
     height: 34px;
     left: 1178px;
-    top: 414px;
+    top: 381px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
     line-height: 26px;
-    /* identical to box height */
     color: #FFFFFF;
     align-items: center;
 }

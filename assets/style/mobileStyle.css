@@ -188,7 +188,7 @@ Start of content
         position: relative;
         width: 480px;
         background: #FFFFFF;
-        height: 8200px;
+        height: 8400px;
     }
     /*
 ================================================================
@@ -791,10 +791,10 @@ Start of slider
 */
     .best-feature-in-world-slider {
         position: relative;
-        width: 660px;
+        width: 350px;
         height: 111px;
-        left: 830px;
-        top: 1017px;
+        left: 10px;
+        top: 1750px;
         margin-top: 212px;
         z-index: 1;
     }
@@ -804,8 +804,8 @@ Start of slider
     .slider-girl-image {
         position: relative;
         z-index: 2;
-        left: -810px;
-        top: 166px;
+        left: 10px;
+        top: -610px;
     }
     #sliderGirlImage {
         width: 350px;
@@ -850,8 +850,8 @@ Start of slider
         position: relative;
         width: 350px;
         height: 375px;
-        left: -810px;
-        top: 210px;
+        left: 10px;
+        top: -390px;
         background: #FFFFFF;
         box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
         border-radius: 10px;
@@ -987,7 +987,7 @@ Start of login
         width: 335px;
         height: 275px;
         left: 15px;
-        top: 7380px;
+        top: 7540px;
         margin-top: 112px;
         font-family: PT Serif;
         font-style: normal;
@@ -1001,7 +1001,7 @@ Start of login
         width: 350px;
         height: 566px;
         left: 10px;
-        top: 7700px;
+        top: 7800px;
         margin-top: 12px;
         margin-bottom: 132px;
         background: #FFFFFF;
@@ -1139,7 +1139,7 @@ Start of footer
         height: 1000px;
         position: relative;
         background-position: center;
-        top: 150px;
+        top: 70px;
         background: #9B9BCA;
     }
     .footer-navbar {
@@ -1189,7 +1189,6 @@ Start of footer
         font-weight: 300;
         font-size: 16px;
         line-height: 30px;
-        /* or 187% */
         display: flex;
         align-items: center;
         color: #FFFFFF;
@@ -1221,7 +1220,6 @@ Start of footer
         font-weight: normal;
         font-size: 22px;
         line-height: 26px;
-        /* identical to box height */
         color: #FFFFFF;
         align-items: center;
     }
