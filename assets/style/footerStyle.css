@@ -1,93 +1,85 @@
-footer {
-    height: 452px;
-    position: relative;
-}
-
-.footer-navbar {
-    position: absolute;
-    width: 842px;
-    height: 162px;
-    left: 379px;
-    top: 139px;
-    font-family: Poppins;
-    font-style: normal;
-    color: #fff;
-    display: flex;
-}
-
-.footer-navbar-item {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #E6E6E6;
-}
-
-.footer-navbar-help-support,
-.footer-navbar-social,
-.footer-navbar-about-us {
-    margin-left: 108px;
-}
-
-.footer-navbar-head {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-}
-
-.footer-navbar-body {
-    margin-top: 12px;
-}
-
-.footer-copyright {
-    position: absolute;
-    width: 465px;
-    height: 40px;
-    left: 243px;
-    top: 378px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
-    margin-bottom: 34px;
-}
-
-.footer-social-buttons,
-.footer-logo {
-    display: flex;
-    direction: row;
-}
-
-.footer-social-buttons {
-    position: absolute;
-    width: 170px;
-    height: 36px;
-    left: 885px;
-    top: 380px;
-}
-
-.margin {
-    margin: 0px 31px;
-}
-
-.footer-logo {
-    position: absolute;
-    width: 177px;
-    height: 34px;
-    left: 1178px;
-    top: 381px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 26px;
-    color: #FFFFFF;
-    align-items: center;
-}
+    @media only screen and (min-device-width: 480px) {
+        footer {
+            height: 452px;
+            position: relative;
+        }
+        .footer-navbar {
+            position: absolute;
+            width: 842px;
+            height: 162px;
+            left: 379px;
+            top: 139px;
+            font-family: Poppins;
+            font-style: normal;
+            color: #fff;
+            display: flex;
+        }
+        .footer-navbar-item {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: #E6E6E6;
+        }
+        .footer-navbar-help-support,
+        .footer-navbar-social,
+        .footer-navbar-about-us {
+            margin-left: 108px;
+        }
+        .footer-navbar-head {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+        }
+        .footer-navbar-body {
+            margin-top: 12px;
+        }
+        .footer-copyright {
+            position: absolute;
+            width: 465px;
+            height: 40px;
+            left: 243px;
+            top: 378px;
+            font-family: Rubik;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+            margin-bottom: 34px;
+        }
+        .footer-social-buttons,
+        .footer-logo {
+            display: flex;
+            direction: row;
+        }
+        .footer-social-buttons {
+            position: absolute;
+            width: 170px;
+            height: 36px;
+            left: 885px;
+            top: 380px;
+        }
+        .margin {
+            margin: 0px 31px;
+        }
+        .footer-logo {
+            position: absolute;
+            width: 177px;
+            height: 34px;
+            left: 1178px;
+            top: 381px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 26px;
+            color: #FFFFFF;
+            align-items: center;
+        }
+    }

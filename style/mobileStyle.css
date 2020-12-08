@@ -793,8 +793,8 @@ Start of slider
         position: relative;
         width: 660px;
         height: 111px;
-        left: 830px;
-        top: 1017px;
+        left: 10px;
+        top: 1360px;
         margin-top: 212px;
         z-index: 1;
     }
@@ -850,7 +850,7 @@ Start of slider
         position: relative;
         width: 350px;
         height: 375px;
-        left: -810px;
+        left: 10px;
         top: 210px;
         background: #FFFFFF;
         box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
