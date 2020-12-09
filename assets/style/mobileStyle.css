@@ -640,7 +640,7 @@ Start of best feature in world
         position: relative;
         width: 350px;
         height: 111px;
-        left: 25px;
+        left: 8px;
         top: 2490px;
         margin-top: 167px;
     }
@@ -657,7 +657,7 @@ Start of best feature in world
         font-family: Poppins;
         font-style: normal;
         font-weight: normal;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 30px;
         text-align: center;
         color: #626780;
@@ -796,7 +796,7 @@ Start of slider
         position: relative;
         width: 350px;
         height: auto;
-        left: 20px;
+        left: 0px;
         top: 2690px;
         margin-top: 212px;
         z-index: 1;
