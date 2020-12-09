@@ -502,7 +502,7 @@ Start of accordion
     .accordion {
         position: relative;
         width: 350px;
-        height: 2500px;
+        height: 1920px;
         left: 15px;
     }
     .left {
@@ -516,6 +516,7 @@ Start of accordion
         float: none;
         top: 1891px;
         left: 0px;
+        display: none;
     }
     .accordion-item {
         background-color: #fff;
@@ -616,7 +617,7 @@ Start of loadmore
     }
     .buttonLoadmore {
         position: relative;
-        top: 2140px;
+        top: 2320px;
         margin-top: 0px;
         left: 70px;
     }
