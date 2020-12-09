@@ -55,7 +55,7 @@ Start of navbar
 */
     header {
         position: relative;
-        width: 480px;
+        width: 400px;
         height: 737px;
         display: flex;
     }
@@ -188,7 +188,7 @@ Start of content
         position: relative;
         width: 480px;
         background: #FFFFFF;
-        height: 8400px;
+        height: 8750px;
     }
     /*
 ================================================================
@@ -356,7 +356,7 @@ Start of people here
         width: 300px;
         height: 175px;
         left: 20px;
-        top: 105px;
+        top: 170px;
     }
     .people-here-head {
         position: absolute;
@@ -384,7 +384,7 @@ Start of people here
     .people-here-image {
         position: absolute;
         left: 10px;
-        top: 320px;
+        top: 440px;
         width: 350px;
     }
     /*
@@ -406,7 +406,7 @@ Start of video
         width: 350px;
         height: 126px;
         left: 30px;
-        top: 1500px;
+        top: 2300px;
         font-family: PT Serif;
         font-style: normal;
         font-weight: normal;
@@ -417,18 +417,18 @@ Start of video
     }
     .video-body {
         position: absolute;
-        width: 100%;
+        width: 400px;
         height: 315px;
         left: 0px;
-        top: 2215px;
+        top: 2440px;
         text-align: center;
     }
     .video-body-gradient {
         position: absolute;
-        width: 100%;
-        height: 235px;
+        width: 400px;
+        height: 218px;
         left: 0px;
-        top: 2256px;
+        top: 2500px;
         text-align: center;
         background: rgba(56, 63, 79, 0.3);
         z-index: 2;
@@ -449,7 +449,7 @@ Start of question and answer
 */
     .question-and-answer-section {
         position: relative;
-        top: 1650px;
+        top: 2550px;
         overflow: hidden;
         width: 375px;
         height: auto;
@@ -472,12 +472,12 @@ Start of question and answer
     }
     .question-answer-title {
         text-align: left;
-        margin: 138px 0;
+        margin: 0px 0;
         position: relative;
-        top: 118px;
+        top: 170px;
         width: 350px;
         height: 142px;
-        left: 35px;
+        left: 25px;
         font-family: PT Serif;
         font-style: normal;
         font-weight: normal;
@@ -502,19 +502,19 @@ Start of accordion
     .accordion {
         position: relative;
         width: 350px;
-        height: 2400px;
+        height: 2500px;
         left: 15px;
     }
     .left {
         position: absolute;
         width: 350px;
-        top: 398px;
+        top: 672px;
     }
     .right {
         position: absolute;
         width: 350px;
         float: none;
-        top: 1325px;
+        top: 1891px;
         left: 0px;
     }
     .accordion-item {
@@ -539,7 +539,7 @@ Start of accordion
         font-family: Poppins;
         font-style: normal;
         font-weight: normal;
-        font-size: 18px;
+        font-size: 15px;
         line-height: 30px;
         color: #402B2B;
     }
@@ -547,7 +547,7 @@ Start of accordion
         content: url("arrowRight.svg");
         font-size: 24px;
         position: absolute;
-        right: 37px;
+        right: 8px;
     }
     .accordion-item-header.active::after {
         content: url("arrowDown.svg");
@@ -616,8 +616,8 @@ Start of loadmore
     }
     .buttonLoadmore {
         position: relative;
-        top: 1616px;
-        margin-top: 101px;
+        top: 2140px;
+        margin-top: 0px;
         left: 70px;
     }
     /*
@@ -638,8 +638,8 @@ Start of best feature in world
         position: relative;
         width: 350px;
         height: 111px;
-        left: 16px;
-        top: 1515px;
+        left: 25px;
+        top: 2490px;
         margin-top: 167px;
     }
     .best-feature-in-world-head {
@@ -679,7 +679,8 @@ Start of best feature in world boxes
         position: relative;
         width: 350px;
         height: 1030px;
-        top: 1640px;
+        top: 2590px;
+        left: 25px;
         display: flex;
         flex-direction: column;
         z-index: 1;
@@ -792,9 +793,9 @@ Start of slider
     .best-feature-in-world-slider {
         position: relative;
         width: 350px;
-        height: 111px;
-        left: 10px;
-        top: 1750px;
+        height: auto;
+        left: 20px;
+        top: 2900px;
         margin-top: 212px;
         z-index: 1;
     }
@@ -850,8 +851,8 @@ Start of slider
         position: relative;
         width: 350px;
         height: 375px;
-        left: 10px;
-        top: -390px;
+        left: 5px;
+        top: -330px;
         background: #FFFFFF;
         box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
         border-radius: 10px;
@@ -985,10 +986,10 @@ Start of login
     .login-head {
         position: absolute;
         width: 335px;
-        height: 275px;
-        left: 15px;
-        top: 7540px;
-        margin-top: 112px;
+        height: auto;
+        left: 25px;
+        top: 7850px;
+        margin-top: 0px;
         font-family: PT Serif;
         font-style: normal;
         font-weight: normal;
@@ -1000,10 +1001,10 @@ Start of login
         position: absolute;
         width: 350px;
         height: 566px;
-        left: 10px;
-        top: 7800px;
+        left: 25px;
+        top: 8050px;
         margin-top: 12px;
-        margin-bottom: 132px;
+        margin-bottom: 0px;
         background: #FFFFFF;
         box-shadow: 0px 20px 40px rgba(149, 149, 201, 0.4);
         border-radius: 10px;
@@ -1141,6 +1142,7 @@ Start of footer
         background-position: center;
         top: 70px;
         background: #9B9BCA;
+        width: 400px;
     }
     .footer-navbar {
         position: absolute;
