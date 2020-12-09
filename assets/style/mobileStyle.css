@@ -188,7 +188,7 @@ Start of content
         position: relative;
         width: 480px;
         background: #FFFFFF;
-        height: 8750px;
+        height: 7900px;
     }
     /*
 ================================================================
@@ -620,6 +620,7 @@ Start of loadmore
         top: 2320px;
         margin-top: 0px;
         left: 70px;
+        width: 250px;
     }
     /*
 ================================================================
@@ -681,7 +682,7 @@ Start of best feature in world boxes
         width: 350px;
         height: 1030px;
         top: 2590px;
-        left: 25px;
+        left: 0px;
         display: flex;
         flex-direction: column;
         z-index: 1;
@@ -796,7 +797,7 @@ Start of slider
         width: 350px;
         height: auto;
         left: 20px;
-        top: 2900px;
+        top: 2690px;
         margin-top: 212px;
         z-index: 1;
     }
@@ -989,7 +990,7 @@ Start of login
         width: 335px;
         height: auto;
         left: 25px;
-        top: 7850px;
+        top: 7100px;
         margin-top: 0px;
         font-family: PT Serif;
         font-style: normal;
@@ -1003,7 +1004,7 @@ Start of login
         width: 350px;
         height: 566px;
         left: 25px;
-        top: 8050px;
+        top: 7300px;
         margin-top: 12px;
         margin-bottom: 0px;
         background: #FFFFFF;
@@ -1116,9 +1117,12 @@ Start of login
         font-family: Poppins;
         font-style: normal;
         font-weight: normal;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 40px;
         color: #626780;
+    }
+    .registration a {
+        color: #F01F35;
     }
     #message {
         display: none;
